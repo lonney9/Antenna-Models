@@ -1,0 +1,13 @@
+Roy Lewallen's (W7EL) simple feed system.
+
+Models used with an Arrayfeed1 example.
+
+2src90 model is used to know the impedance and reactance at the feedpoints.
+
+TL model uses the feedline lengths calculated with Arrayfeed1 in the transmission
+lines feature with a virtual connection where they meet, the source is connected at this point.
+
+TL_M model includes an L match network to match to 50 ohms resistive.
+
+Blog post https://lonneys-notebook.blogspot.com/2020/10/phased-arrays-lewallens-simple-feed.html
+Arrayfeed1 manual in PDF format https://qsl.net/k1lh/Models/arrayfeed1.pdf

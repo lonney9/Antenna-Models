@@ -1,0 +1,48 @@
+-----
+From https://egpreston.com/40mbeam.txt
+Modeled for 7.15 MHz at 45ft height.
+Tweaked element lengths for equal current magnitudes.
+What the text describes is each element has 1/2 wave electrical line connected.
+Where the two lines meet a 1/4 wave electrical line is inserted in series with one side or the other.
+This sets the direction, with a switching network the direction can be made reversible.
+I’ve never seen this design anywhere else before, and a model confirms it should work properly.
+EZNEC doesnt agree with the SWR, a matching network might be required where the main feed-line connects.
+-----
+
+K5GP
+      /               /
+     /               /
+    /               /
+   /|              /|    ---->  forward beam
+  / |             / |
+ /  |50 ft or    /  |50 ft or
+    |100 ft         |100 ft
+    |RG8X           |RG8X
+    |               |
+    |   25 ft RG8X  |
+     \_____________/
+        T       T
+    forward   reverse - beam direction
+    Tee connector feed points.
+
+ 1) space each 40 meter dipole 34 ft apart
+ 2) heighth of dipoles is the same and 10 to 30 ft high; 15 ft is good
+ 3) make the dipoles as flat as possible, i.e., not inverted Vees
+ 3) cut each dipole to 67 ft and feed each in center with 50 ft RG8X
+ 4) connect each 50 ft run of RG8x to each antenna and leave them
+    disconnected so each dipole can be tuned to 7075 kHz separately
+ 5) trim each dipole separately so that the lowest swr is at 7075 kHz
+ 6) use a 25 ft RG8X phasing line on the dipole in the beam direction
+ 7) connect the two coaxes in parallel at the rig using a coax Tee
+ 8) if 50 ft of coax is not enough, use 100 ft RG8X on each dipole
+
+Note: The dipole not being tuned is not resonant when disconnected
+Note: The velocity factor of RG8X is assumed to be 80%.
+Note: Use the same feedline lengths, either 50 ft or 100 ft of RG8X.
+Note: Coax feeds are 1/2 or full wavelength; 1/4 wave phasing section.
+Note: In 40m CW band, f/b ~20 dB and in 40 m SSB band, f/b ~10 dB
+Note: SWR < 2:1 across the entire 40 meter band.
+
+
+
+
