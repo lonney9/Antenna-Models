@@ -35,7 +35,7 @@ Stacking increases gain by surpressing the higher angle lobes and "pushing" that
 
 Model uses minimum 1/2 wave stacking distance, peak gain is at 1.25 wavelength stacking distance.
 
-Model does not include the transmission line phasing harness. These can be calculated and added to the model using transmission lines and virtual connections.
+Model inclues a phasing line using two sections of 75 ohm coax, these must be odd multiples of 1/4 wave, in this example each is 3/4 wave long (4.5 m with VF of 1), meeting at virtual connection V1 where the source is connected.
 
 \
 `Antenna View:`

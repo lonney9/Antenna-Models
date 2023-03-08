@@ -2,7 +2,7 @@
 
 Parasitic (driver + reflector), reversible, direct 50 ohm feed (no matching networks).
 
-Optimized using [AutoEZ](https://ac6la.com/autoez.html), optimizing for gain and direct 50 ohm feed.
+Optimized using [AutoEZ](https://ac6la.com/autoez.html), optimizing for gain and direct 50 ohm feed using equal length 75 ohm lines for convenience, one is fed (driver) the other is left open (reflector) which makes the switching network simple.
 
 | ![Antenna View](Antenna-View.png) |
 | - |
