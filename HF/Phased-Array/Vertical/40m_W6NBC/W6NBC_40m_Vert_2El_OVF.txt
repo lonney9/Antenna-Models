@@ -1,0 +1,9 @@
+Based on W6NBC's 40m radialess vertical.
+http://www.w6nbc.com/articles/2014-QST40mvertical.pdf
+
+Phasing feed-system is Opposite Voltage Fed (OVF) developed by OH1TV.
+http://www.kolumbus.fi/pekka.ketonen/
+
+For other examples of arrays using OVF see
+https://lonneys-notebook.blogspot.com/search/label/Phased_Arrays
+
