@@ -1,0 +1,5 @@
+Basic Antenna Models
+
+Segemented for NEC-5 (even segments) at 75 MHz
+
+Vertical 43 ft Ground Mounted
