@@ -6,6 +6,10 @@ Segemented for NEC-5 (even segments) at 75 MHz
 - Delta Loop Inverted Vertical at 20 m height 
 - Vertical 43 ft Ground Mounted
 
+## Delta Loop Plots
+
+Inverted, fed for vertical polarization, low angle radiation for long distance communication
+
 \
 `View:`
 | ![View](Plots/DLoop-View.png) |
