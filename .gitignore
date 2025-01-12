@@ -1,2 +1,5 @@
-# Ignore
+# Ignore system files
 .DS_Store
+Thumbs.db
+# Ignore EZNEC trace (.pf) files in Plots/ directories
+**/Plots/*.pf
