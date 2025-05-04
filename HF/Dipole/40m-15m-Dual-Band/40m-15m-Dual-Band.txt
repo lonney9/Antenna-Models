@@ -19,7 +19,7 @@ Cutting down to the what article explains:
 Model:
 
     #12 bare copper wire over medium ground, 10 m / 33 ft height.
-    Lengthened to 10.5 m.
+    Shortened to 10.5 m (likely due to de-tuning effect of the ground under it vs free space).
     Model indicates series capacitor load 3.67 m from the center / feed-point, 390 pF series load.
     This was found my moving the load along the wire until minimum current was shown in Load Data at 21.2 MHz.
     Lends it self well to a being 100 ohm system on both bands, 2:1 current balun at feed-point.
