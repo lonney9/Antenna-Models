@@ -1,0 +1,14 @@
+40m Phased Inverted Delta Loops.
+
+Suited for trees/supports about 60ft apart with a height of 45ft.
+
+8.9 dBi, F/B 15 dB or better below 45 degrees between 7.05 MHz and 7.25 MHz. SWR 1.5:1 or better.
+
+Opposite Voltage Fed (OVF) arrays were developed by Pekka Ketonen OH1TV. His site contains several examples in different configurations - http://www.kolumbus.fi/pekka.ketonen/
+
+Each element has an electrical 1/2 wave line meeting at the common point, one line’s polarity must be reversed. VF/loss figures typical for LMR-400 as an exmaple. Current chokes are required at element feed-points.
+
+First L network is a series loading inductor, the shunt is not needed and is open circuit represented by a 1M ohm resistor.
+
+Second L network matches to 50 ohms, its output can be switched between V1 and V2 which reverses the direction of the array as it simply changes which half wave line the loading inductor is inserted into.
+

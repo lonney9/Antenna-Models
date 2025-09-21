@@ -1,0 +1,124 @@
+MultiNEC	7.075	m	mm	SLT30	*** DO NOT MAKE MANUAL EDITS TO THIS FILE ***																									
+																														
+																														
+																														
+																														
+_9.14	_Horizontal wire 1/2 length																													
+_12.31	_Height to apex above ground																													
+_16.14	_Coax connection point up side (%)																													
+_13.74	_75 ohm stub and matching section length																													
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+	_40m 2 Element Delta																													
+	_7	_=G	_3	_7	_=G-(G*2)	_3	_#12	_101																						
+	_7	_=G-(G*2)	_3	_7	_0	_=H	_#12	_101																						
+	_7	_=G	_3	_7	_0	_=H	_#12	_101																						
+	_0	_=G	_3	_0	_=G-(G*2)	_3	_#12	_101																						
+	_0	_=G-(G*2)	_3	_0	_0	_=H	_#12	_101																						
+	_0	_=G	_3	_0	_0	_=H	_#12	_101																						
+_V1		_1	_0	_I											_7.075		_G													
+															_		_H													
+															_		_I													
+															_		_J													
+															_															
+															_															
+															_															
+															_															
+															_															
+																														
+															_0	_0.5														
+															_0	_0.5														
+															_1	_1.01														
+															_1	_99														
+															_0	_40														
+															_0	_40														
+																														
+															_	_														
+															_	_														
+																														
+															_															
+																														
+																														
+															TRUE															
+															3															
+															FALSE															
+															FALSE															
+															TRUE															
+															FALSE															
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+_3	_=I	_V1		_=J	_75	_1	_N	_0	_0																					
+_6	_=I	_Open		_=J	_75	_1	_N	_0	_0																					
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+Controls	FALSE	TRUE	2	4	1	1	0	1	50	0	15																FALSE	TRUE	_1	_0
+_Freq (MHz)																														
+_7.075																														
+2																														

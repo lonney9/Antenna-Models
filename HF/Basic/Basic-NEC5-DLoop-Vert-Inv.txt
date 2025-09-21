@@ -1,0 +1,5 @@
+Basic Antenna Models
+
+Segemented for NEC-5 (even segments) at 75 MHz
+
+Delta Loop Inverted Vertical at 20 m height

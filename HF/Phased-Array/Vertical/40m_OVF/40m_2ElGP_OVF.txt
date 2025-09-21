@@ -1,0 +1,15 @@
+Opposite Voltage Fed (OVF) arrays were developed by Pekka Ketonen OH1TV. His site contains several examples in different configurations.
+http://www.kolumbus.fi/pekka.ketonen/
+
+Elements connected via electrical 1/2 wave line.
+Two lines can be used to meet at alternate common point, polatiry of one must be reversed, SWR and F/B bandwidth may narrow slightly.
+Adequate current chokes needed at each feed-point.
+
+
+First L network is a series loading inductor which resonantes the element it's in series with as a reflector.
+The shunt is not needed and is open circuit represented by a 1M ohm resistor.
+
+Second L network matches to 50 ohms, its output can be changed between V1 and V2 which reverses the direction of the array as it
+simply changes which half wave line the loading inductor is inserted into.
+
+See https://lonneys-notebook.blogspot.com/2020/11/phased-arrays-opposite-voltage-fed-ovf.html 

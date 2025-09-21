@@ -1,0 +1,10 @@
+6m Moxon with 2m Sleeve Coupled Yagi - Design by KV5W.
+
+Designed to be compact for portable use with a single feed.
+
+2m Yagi elements are interlaced with a 6m Moxon.
+
+Two reflectors are used on 2m to counter the interaction with the 6m Moxon and get the F/B and F/R 20 dB or better.
+
+NEC5 Note: With the NEC2 engine this antenna appears to work nicely. The NEC5 engine, it has a poor F/B and match on 2m
+which is the sleeve coupled band. Mostly unchanged on 6m.

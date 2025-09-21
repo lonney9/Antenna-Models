@@ -1,0 +1,11 @@
+EZNEC notes file.
+
+Feed Point Loaded Off Center Fed Dipole (FPL-OCFD)
+
+33% offset., 175 pF cap at the balun (in series with the long leg).
+13 AWG, 0.5mm PE insulated wire (The Wireman 531 material). 0.25mm used in EZNEC matches reality, maybe the Diel C value is off?
+
+In a conventional OCF 80 and 40m resonance is low, 20 and 10m ends up high.
+One solution is the make the antenna longer to bring 10 and 20m into range, then use a cap to electrically shorten the antenna on the lower bands where it's become too long. Cap has diminished effect on higher bands.
+
+Because the antenna is longer the impedance is higher, and suits a 4:1 balun at 55ft/16m height for example.

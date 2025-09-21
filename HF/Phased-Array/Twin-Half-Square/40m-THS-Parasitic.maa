@@ -1,0 +1,47 @@
+40m Twin Half Square (Paracitic)
+*
+7.15
+***Wires***
+8
+0.0,	0.0,	10.5,	0.0,	10.45,	10.5,	8.000e-04,	-1
+0.0,	0.0,	10.5,	0.0,	-10.45,	10.5,	8.000e-04,	-1
+0.0,	10.45,	0.0,	0.0,	10.45,	10.5,	8.000e-04,	-1
+0.0,	-10.45,	0.0,	0.0,	-10.45,	10.5,	8.000e-04,	-1
+4.7,	0.0,	10.5,	4.7,	10.45,	10.5,	8.000e-04,	-1
+4.7,	0.0,	10.5,	4.7,	-10.45,	10.5,	8.000e-04,	-1
+4.7,	10.45,	0.0,	4.7,	10.45,	10.5,	8.000e-04,	-1
+4.7,	-10.45,	0.0,	4.7,	-10.45,	10.5,	8.000e-04,	-1
+***Source***
+1,	0
+w8e1,	0.0,	1.0
+***Load***
+1,	1
+w4e1,	1,	1.0,	40.0
+***Segmentation***
+800,	80,	2.0,	2
+***G/H/M/R/AzEl/X***
+2,	5.0,	1,	50.0,	120,	60,	0.0
+###Comment###
+Mod by Lonney, K1LH 11/27/2022 11:51:51
+Cebik and VA7ST have covered this type of antenna.
+
+I modeled for fun, the close spacing was to see what would happen if I were to try and build the antenna
+as one complete piece using spreaders at the ends and one support at each end.
+This loses about 1 dBi over a 1/4 spacing.
+If the spacing is changed, the resonance of the element acting as the reflector needs to be re-adusted.
+
+The gain at 10 and 20 degrees elevation is 4.8 and 6.4 dBi.
+Quite respectible for a simple wire antenna on 40m.
+
+Can be made electronically reversible using open stubs where a length of coax from each half square
+meet at a common point, one is driven one is left open turning it into a reflector.
+The open stub length can be calculated using TLD - https://ac6la.com/tldetails1.html
+Idea from W8WWV on calculating open and closed stubs
+http://www.seed-solutions.com/gregordy/Amateur%20Radio/Experimentation/HexArray/StubQ.htm
+
+The velocity factor of the coax being used ideally should be measured and then tuned/trimmed using an antenna analyzer.
+
+Another medthod would be to resonate both elements as reflectors.
+Place a matching networks at the bottom of each half square.
+Switch matching network connected to the antenna and is being fed.
+http://www.angelfire.com/md/k3ky/page40.html and http://www.angelfire.com/md/k3ky/page41.html have some tuning network designs.

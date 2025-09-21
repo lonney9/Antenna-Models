@@ -1,0 +1,36 @@
+40m / 15m Dual Band Dipole
+
+Near 100 ohm on each band, use 2:1 current balun at feed-point.
+
+Model created by Lonney, K1LH. Jan/11/25.
+Model even segmented for NEC-5, change wire 1 to 3 segs for NEC-2.
+
+Groups io thread at https://ham-antennas.groups.io/g/main/topic/110541076
+Article: https://batteryeliminatorstore.com/blogs/ocf-masters-articles/end-effect-and-harmonic-antenna-design
+
+---
+
+Cutting down to the what article explains: 
+
+    15 m - Tune the dipole for 3rd harmonic resonance on 15 m band (67.5 ft / 20.88 m).
+    40 m - Place one 390 pF cap to quote "in this case one-third from the end at a current minimum on 15 M" but they don't give a figure or length?
+
+
+Model:
+
+    #12 bare copper wire over medium ground, 10 m / 33 ft height.
+    Shortened to 10.5 m (likely due to de-tuning effect of the ground under it vs free space).
+    Model indicates series capacitor load 3.67 m from the center / feed-point, 390 pF series load.
+    This was found my moving the load along the wire until minimum current was shown in Load Data at 21.2 MHz.
+    Lends it self well to a being 100 ohm system on both bands, 2:1 current balun at feed-point.
+
+ 
+To quote the rest which explains how works:
+ 
+"This will only affect resonance on 40 M because no current flows through the capacitor on 15M. However, significant current flows there on 40M. The phase shift change of current flow on 40 M electrically shortens the antenna making it resonant on 40 M. Depending on the transmit power the capacitor may have to be rated at hundreds of volts and several amps. In this case at 1500 watts, 220 Volts and 3.6 Amps."
+ 
+It is a very smart and neat way to nicely dual-band a 40 / 15m antenna. I like it!
+
+---
+
+

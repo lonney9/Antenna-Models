@@ -1,0 +1,5 @@
+Optimized for 40m 7.175MHz.
+Cap in middle corrects resonance on 80m with out affecting any other bands. 300pF = 3.8MHz.
+Compensation coil in end of long leg pulls resonance down into band on 20m and 10m SSB phone segments. Compensation coil idea from WA7ARK's EFHW design.
+
+Wire insulation based on Wireman 531 material #13 AWG PE jacket. Site says 0.5mm thickness which may be correct but in EZNEC 0.25mm is closer to actual. Diel C maybe off?
